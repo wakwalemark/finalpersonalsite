@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top selling</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="header">
+      <div class="title">
+        <h2>WINE RESERVE</h2>
+     <div>
+     <div class="wine-nav">
+         <div class="nav-inner">
+             <div class="nav-item" onclick="Home()">Home</div>
+             <div class="nav-item" onclick="wines()">Wines</div>
+             <div class="nav-item" onclick="topselling()">Top selling</div>
+         </div>
+     </div>
+    </div>
+    <div class="tps-img">
+        <img src="tps.jpg" alt="" height="700px" width="auto">
+    </div>
+    <div class="tps-info">
+        <div class="tps-name"><b>STOLICHINIY CAPITAL</b></div>
+        <div>
+            <p>
+                Stolichnaya has its origins in the Moscow State Wine Warehouse No. 1 which was opened in 1901 by the authorities to ensure higher quality vodka production.There is confusion about the actual birth date of Stolichnaya vodka. The earliest confirmed production date is 1948, but the label design clearly predates 1946. It is likely that it was created by V. G. Svirida around 1944. However, there is a trademark registration dated 1938, which is sometimes quoted as another birth date.In 1953, Stolichnaya was introduced at the international trade show in Bern and received a gold medal. Before the dissolution of the Soviet Union, the product was made in Ukraine for export.
+            </p>
+        </div>
+    </div>
+    <footer class="footer">
+      <p>Location: Kabalagala along Ggaba road plot 32</p>
+      <p>Phone: +256 12233563569 or +256 12485774857899</p>
+      <p>Email: winereservers@wines.co.ug</p>
+      <p>Wine reserve © 2022 by wakwale Mark</p>
+    </footer>
+    <script>
+        function Home() {
+           window.location.replace("index.html");
+        }
+        function wines() {
+           window.location.replace("wines.html");
+        }
+        function topselling(){
+          window.location.replace("topselling.html");
+        }
+      </script>
+</body>
+</html>

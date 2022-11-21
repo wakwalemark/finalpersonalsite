@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wines</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="header">
+      <div class="title">
+        <h2>WINE RESERVE</h2>
+     <div>
+     <div class="wine-nav">
+         <div class="nav-inner">
+             <div class="nav-item" onclick="Home()">Home</div>
+             <div class="nav-item" onclick="wines()">Wines</div>
+             <div class="nav-item" onclick="topselling()">Top selling</div>
+         </div>
+     </div>
+    </div>
+    <div class="wine">
+      <div class="wine-sec">
+        <img src="Johnnie-Walker-Blue-Label.png" alt="" class="wine-thumbnail">
+      </div>
+      <div class="wine-sec" style="background-color: black;">
+        <div style="border-bottom: 5px solid wheat;"><b>Johnnie Walker Blue Label</b></div>
+        <div>
+          <p>Johnnie Walker Blue Label is an unrivaled masterpiece – an exquisite combination of Scotland’s rarest and most exceptional whiskies. Only one in every ten thousand casks has the elusive quality, character and flavor to deliver the remarkable signature taste. An extraordinary whisky for extraordinary occasions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wine">
+      <div class="wine-sec">
+        <img src="DCRoseNon-AlcoholicWine_900x.webp" alt="" class="wine-thumbnail">
+      </div>
+      <div class="wine-sec" style="background-color: black;">
+        <div style="border-bottom: 5px solid wheat;"><b>DC ROSE NON-ACOHOLIC WINE</b></div>
+        <div>
+          <p>This Non-Alcoholic Rose is a beautiful light salmon pink colour with ripe strawberries and sweet candyfloss on the nose, following through to a balanced palate with a lingering finish.
+            Will pair well with roasted chicken, a salmon salad, Italian food with a red sauce or stuffed mushrooms. Low in calories and vegan-friendly.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wine">
+      <div class="wine-sec">
+        <img src="JB.webp" alt="" class="wine-thumbnail">
+      </div>
+      <div class="wine-sec" style="background-color: black;">
+        <div style="border-bottom: 5px solid wheat;"><b>Jacob's Creek Le Petit Rose 750ml</b></div>
+        <div>
+          <p>Jacob's Creek Le Petit Rosé is a great choice of wine for summer. A premium combination of Pinot Noir, Mataro and Grenache grapes ensure a complex palate that showcases some real varietal character. A shot of acidity provides a generous length of flavour.</p>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>Location: Kabalagala along Ggaba road plot 32</p>
+      <p>Phone: +256 12233563569 or +256 12485774857899</p>
+      <p>Email: winereservers@wines.co.ug</p>
+      <p>Wine reserve © 2022 by wakwale Mark</p>
+    </footer>
+    <script>
+        function Home() {
+           window.location.replace("index.html");
+        }
+        function wines() {
+           window.location.replace("wines.html");
+        }
+        function topselling(){
+          window.location.replace("topselling.html");
+        }
+      </script>
+</body>
+</html>
